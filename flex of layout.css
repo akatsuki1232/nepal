@@ -1,0 +1,53 @@
+.flex-layout{
+    display: flex;
+    border: 5px solid burlywood;
+    width: 500px;
+    flex-direction: row;
+}
+.lays-1{
+    background-color: rgb(255, 0, 100)
+    width: 480px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.seperate{
+    display: flex;
+    flex-direction: column;
+}
+.lays-2{
+    height: 100px;
+    width: 150px;
+    margin:5px;
+    background-color: beige;
+    flex-direction: row;
+}
+.lays-3{
+    height: 100px;
+    width: 150px;
+    margin:5px;
+    background-color: bisque;
+    flex-direction: row;
+}
+.lays-4{
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+}
+.it-1{
+    /* display: flex;
+    flex-direction: column; */
+    height: 50px;
+    width: 60px;
+    margin: 10px;
+    padding: 5px;
+}
+.it-2{
+    /* display: flex;
+    flex-direction: column; */
+    height: 50px;
+    width: 60px;
+    margin: 10px;
+    padding: 5px;
+}
