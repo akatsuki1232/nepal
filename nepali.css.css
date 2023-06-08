@@ -1,0 +1,102 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nature{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),url(nepal-village.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 7%;
+    padding-right: 7%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+width: 80px;
+height: 60px;
+cursor: pointer;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+
+}
+.place{
+    display: flex;
+    height: 85%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p 
+{
+    color:#fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color:burlywood;
+    font-size: 20px;
+    padding: 12px 0;
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+   .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(POKHARA.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: cubic-bezier(0.5);
+   }
+   .abc1{
+    background-image: url(POKHARA.jpg);
+   }
+.abc2{
+    background-image: url(BRP_Lumbini_Mayadevi_temple.jpg);
+}
+.abc3{
+    background-image: url(vince-russell-FXVY6ZIOkhM-unsplash-1024x683.jpg);
+}
+.abc4{
+    background-image: url(f8c422b4-36ad-4c90-aed6-dead54f89fcd.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
